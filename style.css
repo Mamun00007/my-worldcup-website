@@ -1,0 +1,26 @@
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Marvel', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.header{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    padding: 50px;
+    height: 500px; 
+
+}
+.right{
+    padding-right: 200px;
+    
+}
+.size{
+    height: 550px;
+}
