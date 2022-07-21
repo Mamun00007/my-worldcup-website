@@ -20,6 +20,16 @@ margin: 0;
 }
 .size{
     height: 550px;
+
+}
+.button{
+    background-color: #04AA6D;
+     border: 1px solid green;
+     color: white;
+     padding: 10px 24px;
+     border-radius: 10px;
+
+  
 }
 .container{
     display: grid;
@@ -32,6 +42,9 @@ margin: 0;
     border-radius: 5px;
     padding: 10px;
     
+}
+.left{
+    font-size: 24px;
 }
 @media screen and (max-width: 576px) {
 
@@ -51,6 +64,7 @@ margin: 0;
 .main{
     display: flex;
     gap: 20px;
+    
 }
 .container0{
     border: 5px;
@@ -63,15 +77,37 @@ margin: 0;
     grid-template-columns: 100px;
     margin-left: 20px;
     background-position: center;
+    background-color: #52e6af;
+    border: 1px solid rgb(112, 241, 112);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+
 }
+.container0 button:hover {
+    background-color: #1cc5f0;
+    border-radius: 10px;
+  }
 .container00{
-    color: brown;
+    color: rgb(161, 73, 73);
+    
     width: 100%;
     border: 5px;
 }
 .football img{
     width: 100%;
 }
+.football button{
+    background-color: #1674f0;
+    border: 1px solid rgb(65, 87, 65);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+}
+.football button:hover {
+    background-color: #1cc5f0;
+    border-radius: 10px;
+  }
 .footer{
     text-align: center;
     background-color: black;
